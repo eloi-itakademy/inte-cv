@@ -3,247 +3,263 @@
 
 /* GENERAL */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 body {
-    font-family: 'Roboto', serif;
-    max-width: 595px;
+  font-family: 'Roboto', serif;
+  max-width: 595px;
 }
 main {
-    display: flex;
+  display: flex;
+  min-width: 730px;
 }
 aside, section {
-    border: 2px solid black;
+  border: 2px solid black;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 p {
-    font-size: 14px;
-    font-weight: 400;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 /* ASIDE SECTION */
 aside {
-    padding: 17px 22px;
-    color: white;
-    background: linear-gradient(180deg, #27222f 0%, #2C8598 100%);
-    width: 310px;
+  padding: 17px 22px;
+  color: white;
+  background: linear-gradient(180deg, #27222f 0%, #2C8598 100%);
+  width: 500px;
 }
 aside h3 {
-    font-size: 15px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 6px;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 6px;
 
 }
 
 .aside-content {
-    border-radius: 10px;
-    overflow: hidden;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .header-aside {
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 .header-aside h1{
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 14px;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 14px;
 }
 .header-aside h2 {
-    font-size: 15px;
-    font-weight: 500;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .about-aside {
-    margin-bottom: 46px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin-bottom: 46px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .about-aside p,
 .about-aside a {
-    font-size: 13px;
-    font-weight: 400;
+  font-size: 13px;
+  font-weight: 400;
 }
 .about-aside .img-profile {
-    position: relative;
-    width: 130px;
-    height: 130px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: -65px;
-    border-radius: 50%;
-    overflow: hidden;
+  position: relative;
+  width: 130px;
+  height: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -65px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 .about-aside .img-profile img {
-    width: 100%;
+  width: 100%;
 }
 .about-aside .about-text {
-    padding: 109px 13px 16px 13px;
-    background-color: rgba(229, 229, 229, 0.2);
-    border: 1px solid white;
-    border-radius: 10px;
+  padding: 109px 13px 16px 13px;
+  background-color: rgba(229, 229, 229, 0.2);
+  border: 1px solid white;
+  border-radius: 10px;
 }
 
 
 .about-infos {
-    display: flex;
-    flex-direction: column;
-    gap: 17px;
-    margin-bottom: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  margin-bottom: 28px;
 }
 .about-infos .about-infos-content {
-    padding: 12px 15px;
-    text-transform: uppercase;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 50px;
-    overflow: hidden;
+  padding: 12px 15px;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  overflow: hidden;
 }
 .about-infos-content a {
-    color: white;
+  color: white;
 }
 .about-infos-content a i {
-    margin-right: 17px;
+  margin-right: 17px;
 }
 .about-infos-content a i.fa-phone-volume {
-    transform: rotate(320deg);
+  transform: rotate(320deg);
 }
 
 .about-languages .level-language {
-    display: flex;
-    gap: 8px;
+  display: flex;
+  gap: 8px;
 }
 .one-language {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .one-language:not(:first-child) {
-    margin-top: 8px;
+  margin-top: 8px;
 }
 .one-language .name-language {
-    text-transform: uppercase;
-    margin-right: 15px;
-    min-width: 65px;
+  text-transform: uppercase;
+  margin-right: 15px;
+  min-width: 65px;
 }
 .level-language .level {
-    height: 8px;
-    width: 8px;
-    border: 1px solid white;
-    border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  border: 1px solid white;
+  border-radius: 50%;
 }
 .level-language .level.active {
-    background-color: white;
+  background-color: white;
 }
 
 
 
 /* CONTENT SECTION */
 section.content-section {
-    padding: 22px 28px 21px 14px;
-    width: 328px;
+  padding: 22px 28px 21px 14px;
+//width: 328px;
 }
 .content-section .content {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .content .title {
-    position: relative;
-    align-items: center;
-    margin-bottom: 9px;
-    padding: 8px 0;
-    background-color: #2C8598;
-    width: 138px;
-    border-radius: 50px;
-    font-size: 16px;
-    font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
+  position: relative;
+  align-items: center;
+  margin-bottom: 9px;
+  padding: 8px 0;
+  background-color: #2C8598;
+  width: 138px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
 }
 .content .title:after {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    content: '';
-    width: 100%;
-    height: 2px;
-    background-color: #2C8598;
-    color: #2C8598;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: #2C8598;
+  color: #2C8598;
 }
 .content .skills-content {
-    display: grid;
-    justify-items: center;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 29px 0;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 29px 0;
 }
 .skills-content .progress-circle {
-    background-color: #2C8598;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
+  background-color: #2C8598;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
 .sub-content {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .sub-content h4 {
-    font-size: 14px;
-    font-weight: 500;
-    margin-bottom: 3px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 3px;
 }
 .sub-content .tiny {
-    color: #2C8598;
-    margin-bottom: 4px;
+  color: #2C8598;
+  margin-bottom: 4px;
 }
 .sub-content .description {
-    color: #847D7D;
+  color: #847D7D;
 }
 
 div[role="progressbar"] {
-    --size: 60px;
-    --fg: #2C8598;
-    --bg: transparent;
-    --pgPercentage: var(--value);
-    margin: 0 auto 8px;
-    width: var(--size);
-    height: var(--size);
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    background:
-            radial-gradient(closest-side, white 80%, transparent 0 99.9%, #F0ECEC 0),
-            conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0);
-    font-size: calc(var(--size) / 5);
-    color: var(--fg);
+  --size: 60px;
+  --fg: #2C8598;
+  --bg: transparent;
+  --pgPercentage: var(--value);
+  margin: 0 auto 8px;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background:
+          radial-gradient(closest-side, white 80%, transparent 0 99.9%, #F0ECEC 0),
+          conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0);
+  font-size: calc(var(--size) / 5);
+  color: var(--fg);
 }
 
 div[role="progressbar"]::before {
-    content: var(--skill);
-    background-color: #F0ECEC;
-    border-radius: 50%;
-    padding: 14px;
+  height: 22px;
+  content: var(--skill);
+  background-color: #F0ECEC;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 18px;
+  width: 22px;
+  text-align: center;
+}
+#progr-ps {
+  color: #1daafc;
+}
+#progr-ai {
+  color: #f2972f;
+}
+#progr-id {
+  color: #fc3768;
+}
+#progr-xd {
+  color: #fd68f3;
 }
 
 
 
 
 .hobbies-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 .hobby {
-    color: #847D7D;
+  color: #847D7D;
+  text-align: center;
 }
 .hobby i {
-    font-size: 24px;
-}
-.hobby i {
-    font-size: 10px;
+  font-size: 24px;
+  margin-bottom: 8px;
 }
